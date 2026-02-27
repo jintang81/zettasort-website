@@ -1,0 +1,15 @@
+{
+  "items": [
+    {
+      "id": "vid-001",
+      "date": "2026-02-25",
+      "thumb": "assets/images/thumbnails/Me and Dad.jpeg",
+      "platform": "youtube",
+      "url": "https://www.youtube.com/shorts/BQkKeNxiuyY",
+      "title_en": "Me and Dad!",
+      "desc_en": "A short personal video featuring me and my dad.",
+      "title_zh": "我和爸爸！",
+      "desc_zh": "一段与爸爸一起的短视频。"
+    }
+  ]
+}

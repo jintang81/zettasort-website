@@ -1,0 +1,152 @@
+# ============================================================
+#  Decap CMS configuration for ZettaSort
+#  Docs: https://decapcms.org/docs/
+# ============================================================
+
+backend:
+  name: git-gateway
+  branch: main
+
+# Uncomment the line below to test locally (requires running: npx decap-server)
+# local_backend: true
+
+# Where uploaded images are stored / referenced from
+media_folder: "assets/images/uploads"
+public_folder: "assets/images/uploads"
+
+collections:
+
+  # ── Videos ──────────────────────────────────────────────
+  - name: "videos"
+    label: "Videos"
+    files:
+      - name: "videos"
+        label: "All Videos"
+        file: "content/videos.json"
+        fields:
+          - label: "Videos"
+            name: "items"
+            widget: "list"
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "string"
+                hint: "Unique ID, e.g. vid-002"
+              - label: "Date"
+                name: "date"
+                widget: "datetime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+              - label: "Thumbnail"
+                name: "thumb"
+                widget: "image"
+                required: false
+                default: ""
+              - label: "Platform"
+                name: "platform"
+                widget: "select"
+                options:
+                  - { label: "YouTube", value: "youtube" }
+                  - { label: "小红书 Xiaohongshu", value: "xiaohongshu" }
+              - label: "Video URL"
+                name: "url"
+                widget: "string"
+              - label: "Title (English)"
+                name: "title_en"
+                widget: "string"
+              - label: "Description (English)"
+                name: "desc_en"
+                widget: "text"
+              - label: "标题（中文）"
+                name: "title_zh"
+                widget: "string"
+              - label: "描述（中文）"
+                name: "desc_zh"
+                widget: "text"
+
+  # ── Articles ─────────────────────────────────────────────
+  - name: "articles"
+    label: "Articles"
+    files:
+      - name: "articles"
+        label: "All Articles"
+        file: "content/articles.json"
+        fields:
+          - label: "Articles"
+            name: "items"
+            widget: "list"
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "string"
+                hint: "Unique ID, e.g. art-004. Used in the article URL."
+              - label: "Date"
+                name: "date"
+                widget: "datetime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+              - label: "Thumbnail"
+                name: "thumb"
+                widget: "image"
+                required: false
+                default: ""
+              - label: "Title (English)"
+                name: "title_en"
+                widget: "string"
+              - label: "Excerpt (English)"
+                name: "excerpt_en"
+                widget: "text"
+              - label: "Body (English) — Markdown supported"
+                name: "body_en"
+                widget: "text"
+              - label: "标题（中文）"
+                name: "title_zh"
+                widget: "string"
+              - label: "摘要（中文）"
+                name: "excerpt_zh"
+                widget: "text"
+              - label: "正文（中文）— 支持 Markdown"
+                name: "body_zh"
+                widget: "text"
+
+  # ── AI Art ───────────────────────────────────────────────
+  - name: "art"
+    label: "AI Art"
+    files:
+      - name: "art"
+        label: "All Art Pieces"
+        file: "content/art.json"
+        fields:
+          - label: "Art Pieces"
+            name: "items"
+            widget: "list"
+            fields:
+              - label: "ID"
+                name: "id"
+                widget: "string"
+                hint: "Unique ID, e.g. aart-004"
+              - label: "Date"
+                name: "date"
+                widget: "datetime"
+                format: "YYYY-MM-DD"
+                date_format: "YYYY-MM-DD"
+                time_format: false
+              - label: "Image"
+                name: "src"
+                widget: "image"
+                required: false
+                default: ""
+              - label: "Title (English)"
+                name: "title_en"
+                widget: "string"
+              - label: "Description (English)"
+                name: "desc_en"
+                widget: "text"
+              - label: "标题（中文）"
+                name: "title_zh"
+                widget: "string"
+              - label: "描述（中文）"
+                name: "desc_zh"
+                widget: "text"

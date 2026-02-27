@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZettaSort videos — Watch on YouTube and Xiaohongshu.">
+  <title>Videos — ZettaSort</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="videos">
+
+  <!-- ── Navigation ── -->
+  <header class="site-header">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a class="nav__logo" href="index.html" aria-label="ZettaSort home">
+        <div class="nav__logo-mark" aria-hidden="true">Z</div>
+        ZettaSort
+      </a>
+      <button class="nav__hamburger" id="hamburger"
+              aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="videos.html"   data-i18n="nav.videos">Videos</a></li>
+        <li><a href="articles.html" data-i18n="nav.articles">Articles</a></li>
+        <li><a href="art.html"      data-i18n="nav.art">AI Art</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">中文</button>
+    </nav>
+  </header>
+
+  <!-- ── Main ── -->
+  <main class="page-main">
+    <div class="container">
+      <h1 class="page-title" data-i18n="videos.title">Videos</h1>
+      <p class="page-subtitle" data-i18n="videos.subtitle">Watch on YouTube or Xiaohongshu</p>
+
+      <div class="card-grid" id="videosList" aria-label="All videos"></div>
+
+      <div class="pagination">
+        <button class="btn btn--ghost" id="videosLoadMore" data-i18n="load.more" hidden>
+          Load more
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="footer__inner">
+      <p class="footer__left" data-i18n="footer.copy">© 2026 ZettaSort. All rights reserved.</p>
+      <div class="footer__social" aria-label="Social media links">
+        <a href="https://www.youtube.com/@ZettaSort" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">YT</a>
+        <a href="https://www.xiaohongshu.com/user/profile/6729a3a4000000001d02c2bb?xsec_token=YByugDbW_jZWxoYH6QohM_JCKwJRqe5VmwM71KMIkJ3wg=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=OD00OUQ4RT02NzUyOTgwNjdHOTlHN0hL&apptime=1772090564&share_id=cf8041309ef640d5a1a70d015d2a26c6" target="_blank" rel="noopener" aria-label="Xiaohongshu" title="Xiaohongshu">XHS</a>
+        <a href="https://x.com/jintanghe88?s=21" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/content-loader.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Work with ZettaSort — brand collaborations, content licensing, speaking invitations.">
+  <title>Contact — ZettaSort</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="contact">
+
+  <!-- ── Navigation ── -->
+  <header class="site-header">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a class="nav__logo" href="index.html" aria-label="ZettaSort home">
+        <div class="nav__logo-mark" aria-hidden="true">Z</div>
+        ZettaSort
+      </a>
+      <button class="nav__hamburger" id="hamburger"
+              aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="videos.html"   data-i18n="nav.videos">Videos</a></li>
+        <li><a href="articles.html" data-i18n="nav.articles">Articles</a></li>
+        <li><a href="art.html"      data-i18n="nav.art">AI Art</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">中文</button>
+    </nav>
+  </header>
+
+  <!-- ── Main ── -->
+  <main class="page-main">
+    <div class="container--narrow" style="padding-inline: 1.5rem; margin-inline: auto;">
+
+      <h1 class="page-title" data-i18n="contact.title">Let's Work Together</h1>
+      <p class="contact-intro" data-i18n="contact.intro">
+        Open to brand collaborations, content licensing, and speaking invitations.
+        Fill in the form and I'll get back to you.
+      </p>
+
+      <!--
+        HOW TO SET UP THE CONTACT FORM:
+        1. Go to https://formspree.io and create a free account
+        2. Create a new form → copy the form ID (looks like "abcdefgh")
+        3. Replace "YOUR_FORM_ID" below with your actual ID
+        4. Done — form submissions will be emailed to your Formspree account email
+      -->
+      <form class="contact-form" id="contactForm"
+            action="https://formspree.io/f/xkovyboj"
+            method="POST">
+
+        <div class="form-group">
+          <label for="contactName" data-i18n="contact.form.name">Name</label>
+          <input type="text" id="contactName" name="name"
+                 autocomplete="name" required
+                 placeholder="Your name">
+        </div>
+
+        <div class="form-group">
+          <label for="contactEmail" data-i18n="contact.form.email">Email</label>
+          <input type="email" id="contactEmail" name="email"
+                 autocomplete="email" required
+                 placeholder="you@example.com">
+        </div>
+
+        <div class="form-group">
+          <label for="contactType" data-i18n="contact.form.type">Type of Collaboration</label>
+          <select id="contactType" name="type">
+            <option value="brand"   data-i18n="contact.form.type.brand">Brand Partnership</option>
+            <option value="license" data-i18n="contact.form.type.license">Content Licensing</option>
+            <option value="speak"   data-i18n="contact.form.type.speak">Speaking Invitation</option>
+            <option value="other"   data-i18n="contact.form.type.other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="contactMessage" data-i18n="contact.form.message">Message</label>
+          <textarea id="contactMessage" name="message" rows="6" required
+                    placeholder="Tell me about your project…"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary" data-i18n="contact.form.submit">
+          Send Message
+        </button>
+
+        <p class="form-success" id="formSuccess" hidden
+           data-i18n="contact.form.success">
+          ✓ Thank you! I'll be in touch soon.
+        </p>
+        <p class="form-success" id="formError" hidden
+           style="background:#fff0f0; border-color:#ddb8b8; color:#6a2d2d;"
+           data-i18n="contact.form.error">
+          Something went wrong. Please try again.
+        </p>
+
+      </form>
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="footer__inner">
+      <p class="footer__left" data-i18n="footer.copy">© 2026 ZettaSort. All rights reserved.</p>
+      <div class="footer__social" aria-label="Social media links">
+        <a href="https://www.youtube.com/@ZettaSort" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">YT</a>
+        <a href="https://www.xiaohongshu.com/user/profile/6729a3a4000000001d02c2bb?xsec_token=YByugDbW_jZWxoYH6QohM_JCKwJRqe5VmwM71KMIkJ3wg=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=OD00OUQ4RT02NzUyOTgwNjdHOTlHN0hL&apptime=1772090564&share_id=cf8041309ef640d5a1a70d015d2a26c6" target="_blank" rel="noopener" aria-label="Xiaohongshu" title="Xiaohongshu">XHS</a>
+        <a href="https://x.com/jintanghe88?s=21" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/content-loader.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

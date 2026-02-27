@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ZettaSort — AI content creator. Videos, articles, and AI art exploring the future of artificial intelligence.">
+  <title>ZettaSort — AI Content Creator</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-page="home">
+
+  <!-- ── Navigation ── -->
+  <header class="site-header">
+    <nav class="nav" role="navigation" aria-label="Main navigation">
+      <a class="nav__logo" href="index.html" aria-label="ZettaSort home">
+        <div class="nav__logo-mark" aria-hidden="true">Z</div>
+        ZettaSort
+      </a>
+      <button class="nav__hamburger" id="hamburger"
+              aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks" role="list">
+        <li><a href="index.html"    data-i18n="nav.home">Home</a></li>
+        <li><a href="videos.html"   data-i18n="nav.videos">Videos</a></li>
+        <li><a href="articles.html" data-i18n="nav.articles">Articles</a></li>
+        <li><a href="art.html"      data-i18n="nav.art">AI Art</a></li>
+        <li><a href="contact.html"  data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">中文</button>
+    </nav>
+  </header>
+
+  <!-- ── Main ── -->
+  <main class="page-main" style="padding-block: 0;">
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero__inner container">
+        <h1 class="hero__title">
+          <span data-i18n="home.hero.title">Hi, I'm ZettaSort</span>
+        </h1>
+        <p class="hero__tagline" data-i18n="home.hero.tagline">
+          I explore AI tools and make them feel human — no hype, just honest discovery.
+        </p>
+        <div class="hero__social-links">
+          <a class="btn btn--outline" href="https://www.youtube.com/@ZettaSort" target="_blank" rel="noopener"
+             data-i18n="home.hero.yt">YouTube</a>
+          <a class="btn btn--outline" href="https://www.xiaohongshu.com/user/profile/6729a3a4000000001d02c2bb?xsec_token=YByugDbW_jZWxoYH6QohM_JCKwJRqe5VmwM71KMIkJ3wg=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=OD00OUQ4RT02NzUyOTgwNjdHOTlHN0hL&apptime=1772090564&share_id=cf8041309ef640d5a1a70d015d2a26c6" target="_blank" rel="noopener"
+             data-i18n="home.hero.xhs">Xiaohongshu</a>
+          <a class="btn btn--outline" href="https://x.com/jintanghe88?s=21" target="_blank" rel="noopener"
+             data-i18n="home.hero.x">X / Twitter</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Videos -->
+    <section class="preview-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="home.latest.videos">Latest Videos</h2>
+          <a class="see-all" href="videos.html" data-i18n="home.seeAll">See all →</a>
+        </div>
+        <div class="card-grid" id="homeVideos" aria-label="Latest videos"></div>
+      </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="preview-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="home.latest.articles">Latest Articles</h2>
+          <a class="see-all" href="articles.html" data-i18n="home.seeAll">See all →</a>
+        </div>
+        <div class="card-grid" id="homeArticles" aria-label="Latest articles"></div>
+      </div>
+    </section>
+
+    <!-- Latest AI Art -->
+    <section class="preview-section">
+      <div class="container">
+        <div class="section-header">
+          <h2 data-i18n="home.latest.art">Latest AI Art</h2>
+          <a class="see-all" href="art.html" data-i18n="home.seeAll">See all →</a>
+        </div>
+        <div class="art-grid art-grid--preview" id="homeArt" aria-label="Latest AI art"></div>
+      </div>
+    </section>
+
+    <!-- About snippet -->
+    <section class="about-snippet">
+      <div class="about-snippet__inner container">
+        <img class="about-snippet__avatar"
+             src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96' viewBox='0 0 96 96'%3E%3Ccircle fill='%23e0d8ce' cx='48' cy='48' r='48'/%3E%3Ctext fill='%237a6e65' font-family='sans-serif' font-size='32' x='50%25' y='50%25' text-anchor='middle' dominant-baseline='middle'%3EZ%3C/text%3E%3C/svg%3E"
+             alt="ZettaSort avatar">
+        <div class="about-snippet__text">
+          <p class="about-snippet__name" data-i18n="home.about.name">ZettaSort</p>
+          <p data-i18n="home.about.bio">
+            I create content about AI for curious people — breaking down complex ideas into clear, friendly stories.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="footer__inner">
+      <p class="footer__left" data-i18n="footer.copy">© 2026 ZettaSort. All rights reserved.</p>
+      <div class="footer__social" aria-label="Social media links">
+        <a href="https://www.youtube.com/@ZettaSort" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">YT</a>
+        <a href="https://www.xiaohongshu.com/user/profile/6729a3a4000000001d02c2bb?xsec_token=YByugDbW_jZWxoYH6QohM_JCKwJRqe5VmwM71KMIkJ3wg=&xsec_source=app_share&xhsshare=CopyLink&shareRedId=OD00OUQ4RT02NzUyOTgwNjdHOTlHN0hL&apptime=1772090564&share_id=cf8041309ef640d5a1a70d015d2a26c6" target="_blank" rel="noopener" aria-label="Xiaohongshu" title="Xiaohongshu">XHS</a>
+        <a href="https://x.com/jintanghe88?s=21" target="_blank" rel="noopener" aria-label="X / Twitter" title="X / Twitter">X</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/content-loader.js"></script>
+  <script src="js/render.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    /* Redirect to /admin/ after Netlify Identity login */
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on('init', user => {
+        if (!user) {
+          window.netlifyIdentity.on('login', () => {
+            document.location.href = '/admin/';
+          });
+        }
+      });
+    }
+  </script>
+</body>
+</html>

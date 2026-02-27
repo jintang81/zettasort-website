@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "aart-mm4ee5p3",
+      "date": "2026-02-27",
+      "src": "assets/images/art/ZettaSort.jpg",
+      "title_en": "ZettaSort",
+      "desc_en": "ZettaSort",
+      "title_zh": "极阶智排",
+      "desc_zh": "极阶智排"
+    },
+    {
+      "id": "aart-001",
+      "date": "2026-02-18",
+      "src": "",
+      "title_en": "Neon Sakura",
+      "desc_en": "Midjourney v6 · Prompt: neon cherry blossom, cyberpunk Tokyo street, soft rain, bokeh",
+      "title_zh": "霓虹樱花",
+      "desc_zh": "Midjourney v6 · 提示词：霓虹樱花、赛博朋克东京街头、细雨、散景"
+    },
+    {
+      "id": "aart-002",
+      "date": "2026-02-12",
+      "src": "",
+      "title_en": "Golden Hour Robot",
+      "desc_en": "DALL-E 3 · A gentle robot watching the sunset over a wheat field",
+      "title_zh": "黄昏时刻的机器人",
+      "desc_zh": "DALL-E 3 · 一个温柔的机器人望着麦田上方的日落"
+    },
+    {
+      "id": "aart-003",
+      "date": "2026-02-05",
+      "src": "",
+      "title_en": "Deep Ocean Mind",
+      "desc_en": "Stable Diffusion XL · Prompt: bioluminescent thoughts, dark ocean, neural networks, peaceful",
+      "title_zh": "深海思维",
+      "desc_zh": "Stable Diffusion XL · 提示词：生物发光的思想、深海、神经网络、宁静"
+    }
+  ]
+}
