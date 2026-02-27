@@ -1,37 +1,48 @@
 {
   "items": [
     {
-      "id": "art-001",
-      "date": "2026-02-23",
-      "thumb": "",
-      "title_en": "Why AI Won't Replace Creativity (Yet)",
-      "excerpt_en": "A calm, evidence-based look at what AI actually can and cannot do with creative work.",
       "body_en": "The headlines love to scare us. \"AI will replace artists.\" \"Writers are obsolete.\" But if you spend real time *using* these tools for creative work, a more nuanced picture emerges.\n\n## What AI actually does well\n\nAI excels at pattern completion. Give it a style, a genre, a format — and it will produce something that *looks like* the thing you asked for. Quickly, tirelessly, and at scale.\n\nFor certain tasks, this is genuinely useful. First drafts, brainstorming, overcoming blank-page paralysis — AI is a capable collaborator here.\n\n## Where humans remain irreplaceable\n\nWhat AI cannot do is **care**. It has no stakes in the outcome. It doesn't know what it feels like to lose someone, to start over, to be moved by a piece of music at 2am.\n\nThe most resonant creative work draws from lived experience — from the specific texture of a particular human life. That texture is yours alone.\n\n> The best creative work happens when humans and AI each do what they're good at — and neither pretends to be the other.\n\n## A practical way to think about it\n\n- Use AI for the *generative* phase: getting ideas, rough drafts, structural exploration.\n- Bring your full human judgment to the *editorial* phase: what to keep, cut, and sharpen.\n- The final voice should always be yours.\n\nAI is a powerful new brush. But you're still the painter.",
-      "title_zh": "为什么 AI 暂时还没法替代创造力",
+      "excerpt_en": "A calm, evidence-based look at what AI actually can and cannot do with creative work.",
+      "body_zh": "标题总爱吓我们。\"AI 将取代艺术家。\"\"写作者已经过时。\"但如果你真正花时间*用*这些工具做创意工作，会看到一幅更微妙的图景。\n\n## AI 真正擅长什么\n\nAI 在模式补全方面表现出色。给它一种风格、一个类型、一种格式——它就会生产出*看起来像*你要求的东西。快速、持续、大规模。\n\n对于某些任务，这确实有用：初稿、头脑风暴、克服空白页的恐惧——AI 在这些方面是个称职的协作者。\n\n## 人类仍然不可替代的地方\n\nAI 做不到的是**在乎**。它在结果上没有任何利益。它不知道失去一个人是什么感觉，不知道重新开始是什么滋味，不知道凌晨两点被一段音乐打动是什么体验。\n\n最能引起共鸣的创意作品来自亲身经历——来自特定人类生命的具体质感。那种质感只属于你。\n\n> 最好的创意工作，发生在人类和 AI 各做自己擅长的事的时候——没有谁假装成对方。\n\n## 一种实用的思考方式\n\n- 用 AI 负责*生成*阶段：获取想法、粗略草稿、结构探索。\n- 把你完整的人类判断带入*编辑*阶段：决定留下什么、删除什么、打磨什么。\n- 最终的声音永远应该是你的。\n\nAI 是一支强大的新画笔。但你仍然是那个画画的人。",
       "excerpt_zh": "平静而有据可依地看一看，AI 在创造性工作上究竟能做什么、不能做什么。",
-      "body_zh": "标题总爱吓我们。\"AI 将取代艺术家。\"\"写作者已经过时。\"但如果你真正花时间*用*这些工具做创意工作，会看到一幅更微妙的图景。\n\n## AI 真正擅长什么\n\nAI 在模式补全方面表现出色。给它一种风格、一个类型、一种格式——它就会生产出*看起来像*你要求的东西。快速、持续、大规模。\n\n对于某些任务，这确实有用：初稿、头脑风暴、克服空白页的恐惧——AI 在这些方面是个称职的协作者。\n\n## 人类仍然不可替代的地方\n\nAI 做不到的是**在乎**。它在结果上没有任何利益。它不知道失去一个人是什么感觉，不知道重新开始是什么滋味，不知道凌晨两点被一段音乐打动是什么体验。\n\n最能引起共鸣的创意作品来自亲身经历——来自特定人类生命的具体质感。那种质感只属于你。\n\n> 最好的创意工作，发生在人类和 AI 各做自己擅长的事的时候——没有谁假装成对方。\n\n## 一种实用的思考方式\n\n- 用 AI 负责*生成*阶段：获取想法、粗略草稿、结构探索。\n- 把你完整的人类判断带入*编辑*阶段：决定留下什么、删除什么、打磨什么。\n- 最终的声音永远应该是你的。\n\nAI 是一支强大的新画笔。但你仍然是那个画画的人。"
+      "date": "2026-02-23",
+      "title_en": "Why AI Won't Replace Creativity (Yet)",
+      "title_zh": "为什么 AI 暂时还没法替代创造力",
+      "thumb": "",
+      "id": "art-001"
     },
     {
-      "id": "art-002",
-      "date": "2026-02-15",
-      "thumb": "",
-      "title_en": "The 10-Minute AI Workflow That Saves Me 3 Hours a Week",
-      "excerpt_en": "A simple system using three tools in sequence that I've been running for six months.",
       "body_en": "I'm going to describe a workflow that took me about ten minutes to set up and has saved me somewhere between two and four hours every week since.\n\n## The problem it solves\n\nEvery week I was spending time on three things that felt important but were eating into the time I wanted for actual creative work: summarizing my notes, drafting social captions, and scheduling content.\n\n## The workflow\n\nHere's what I do every Sunday evening, in order:\n\n### Step 1: Dump the week into ChatGPT (5 min)\n\nI paste my rough notes from the week — voice memos transcribed, ideas jotted down, links I wanted to revisit — into a single ChatGPT prompt. I ask it to organize them into themes and flag the three most interesting ideas.\n\n### Step 2: Turn themes into captions (3 min)\n\nFor each flagged idea, I ask it to draft three caption variations: one for X (short, punchy), one for Xiaohongshu (warmer, more story-driven), and one for a potential YouTube title.\n\n### Step 3: Build the week's schedule (2 min)\n\nI paste the captions I like into Notion, where I have a simple content calendar template. I assign dates, add any missing assets, and I'm done.\n\n## What I still do manually\n\nEverything above handles logistics. The actual *writing*, the *filming*, the *thinking* — that's still all me. The workflow doesn't replace creative work. It removes the friction around it.",
-      "title_zh": "每周帮我省 3 小时的 10 分钟 AI 工作流",
+      "excerpt_en": "A simple system using three tools in sequence that I've been running for six months.",
+      "body_zh": "我要介绍一个大约花十分钟就能搭建好的工作流——从那以后，每周大概帮我节省了两到四个小时。\n\n## 它解决了什么问题\n\n每周我都在三件感觉重要、却又吃掉我真正想用来创作的时间的事情上耗费精力：整理笔记、起草社交文案、安排内容发布计划。\n\n## 工作流\n\n这是我每个周日晚上按顺序做的事：\n\n### 第一步：把一周的内容倒进 ChatGPT（5 分钟）\n\n我把这一周的粗糙笔记——转录的语音备忘、随手记的想法、想回头看的链接——粘贴进一个 ChatGPT 提示词。让它把这些内容按主题整理，并标出最有意思的三个想法。\n\n### 第二步：把主题变成文案（3 分钟）\n\n针对每个被标出的想法，我让它起草三个文案版本：一个给 X（简短有力），一个给小红书（更有温度、更像故事），一个用作潜在的 YouTube 标题。\n\n### 第三步：搭建本周计划（2 分钟）\n\n我把自己满意的文案粘贴进 Notion，里面有一个简单的内容日历模板。分配日期，补齐缺失的素材，完成。\n\n## 我仍然手动做的事\n\n以上都是在处理后勤。真正的*写作*、*拍摄*、*思考*——还是全靠我自己。这个工作流不替代创意工作，只是消除了围绕它的摩擦。",
       "excerpt_zh": "一个用三个工具按顺序运行的简单系统，我已经坚持了六个月。",
-      "body_zh": "我要介绍一个大约花十分钟就能搭建好的工作流——从那以后，每周大概帮我节省了两到四个小时。\n\n## 它解决了什么问题\n\n每周我都在三件感觉重要、却又吃掉我真正想用来创作的时间的事情上耗费精力：整理笔记、起草社交文案、安排内容发布计划。\n\n## 工作流\n\n这是我每个周日晚上按顺序做的事：\n\n### 第一步：把一周的内容倒进 ChatGPT（5 分钟）\n\n我把这一周的粗糙笔记——转录的语音备忘、随手记的想法、想回头看的链接——粘贴进一个 ChatGPT 提示词。让它把这些内容按主题整理，并标出最有意思的三个想法。\n\n### 第二步：把主题变成文案（3 分钟）\n\n针对每个被标出的想法，我让它起草三个文案版本：一个给 X（简短有力），一个给小红书（更有温度、更像故事），一个用作潜在的 YouTube 标题。\n\n### 第三步：搭建本周计划（2 分钟）\n\n我把自己满意的文案粘贴进 Notion，里面有一个简单的内容日历模板。分配日期，补齐缺失的素材，完成。\n\n## 我仍然手动做的事\n\n以上都是在处理后勤。真正的*写作*、*拍摄*、*思考*——还是全靠我自己。这个工作流不替代创意工作，只是消除了围绕它的摩擦。"
+      "date": "2026-02-15",
+      "title_en": "The 10-Minute AI Workflow That Saves Me 3 Hours a Week",
+      "title_zh": "每周帮我省 3 小时的 10 分钟 AI 工作流",
+      "thumb": "",
+      "id": "art-002"
     },
     {
-      "id": "art-003",
-      "date": "2026-02-08",
-      "thumb": "",
-      "title_en": "What I Wish I Knew Before Starting AI Content Creation",
-      "excerpt_en": "Three things that took me too long to figure out — so you don't have to.",
       "body_en": "I've been making AI content for over a year. Here are three things I wish someone had told me at the start.\n\n## 1. Consistency beats virality\n\nI wasted three months trying to engineer viral posts instead of just showing up regularly. The channel that grew was the one I updated every week, not the one I optimized obsessively.\n\n## 2. Your specific perspective is the product\n\nThere are thousands of people covering AI tools. What made mine different wasn't having better tools — it was having a consistent *point of view*: practical, skeptical of hype, focused on creative applications.\n\nFigure out your point of view early. It makes every content decision easier.\n\n## 3. The audience teaches you\n\nI planned my first six months of content based on what I thought people wanted. Then I started asking questions in comments and replies — and learned that what people actually wanted was almost entirely different.\n\n> Don't guess what your audience needs. Ask them. Then make that.",
-      "title_zh": "做 AI 内容创作之前，我希望早点知道这些事",
+      "excerpt_en": "Three things that took me too long to figure out — so you don't have to.",
+      "body_zh": "我做 AI 内容已经超过一年了。以下是三件我希望一开始就有人告诉我的事。\n\n## 1. 持续更新胜过爆款\n\n我浪费了三个月时间试图制造爆款，而不是规律出现。真正增长的频道，是那个每周都更新的，不是我反复优化却迟迟不发的那个。\n\n## 2. 你独特的视角才是产品\n\n有成千上万的人在介绍 AI 工具。让我的内容不同的，不是拥有更好的工具——而是拥有一致的*观点*：实用、对炒作保持怀疑、专注于创意应用。\n\n尽早找到你的观点。它会让之后的每一个内容决策都变得更容易。\n\n## 3. 受众会教你\n\n我根据自己的想象规划了前六个月的内容。后来我开始在评论和回复里提问——才发现人们真正想要的东西和我猜的几乎完全不同。\n\n> 不要猜测受众需要什么。问他们。然后做那个。",
       "excerpt_zh": "三件花了我太长时间才想明白的事——希望你不必走同样的弯路。",
-      "body_zh": "我做 AI 内容已经超过一年了。以下是三件我希望一开始就有人告诉我的事。\n\n## 1. 持续更新胜过爆款\n\n我浪费了三个月时间试图制造爆款，而不是规律出现。真正增长的频道，是那个每周都更新的，不是我反复优化却迟迟不发的那个。\n\n## 2. 你独特的视角才是产品\n\n有成千上万的人在介绍 AI 工具。让我的内容不同的，不是拥有更好的工具——而是拥有一致的*观点*：实用、对炒作保持怀疑、专注于创意应用。\n\n尽早找到你的观点。它会让之后的每一个内容决策都变得更容易。\n\n## 3. 受众会教你\n\n我根据自己的想象规划了前六个月的内容。后来我开始在评论和回复里提问——才发现人们真正想要的东西和我猜的几乎完全不同。\n\n> 不要猜测受众需要什么。问他们。然后做那个。"
+      "date": "2026-02-08",
+      "title_en": "What I Wish I Knew Before Starting AI Content Creation",
+      "title_zh": "做 AI 内容创作之前，我希望早点知道这些事",
+      "thumb": "",
+      "id": "art-003"
+    },
+    {
+      "body_en": "Test",
+      "excerpt_en": "Test",
+      "body_zh": "测试",
+      "excerpt_zh": "测试",
+      "date": "2026-02-26",
+      "title_en": "Test",
+      "title_zh": "测试",
+      "thumb": "",
+      "id": "art-004"
     }
   ]
 }
