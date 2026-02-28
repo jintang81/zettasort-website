@@ -17,6 +17,7 @@ const TRANSLATIONS = {
     // Home
     'home.hero.title':        'Hi, I\'m ZettaSort',
     'home.hero.tagline':      'I explore AI tools and make them feel human — no hype, just honest discovery.',
+    'home.hero.cta':          'Explore Articles →',
     'home.hero.yt':           'YouTube',
     'home.hero.xhs':          'Xiaohongshu',
     'home.hero.x':            'X / Twitter',
@@ -83,6 +84,7 @@ const TRANSLATIONS = {
     // Home
     'home.hero.title':        '你好，我是 ZettaSort',
     'home.hero.tagline':      '我探索 AI 工具，用人话讲给你听。不卖噱头，只有真实发现!',
+    'home.hero.cta':          '探索文章 →',
     'home.hero.yt':           'YouTube',
     'home.hero.xhs':          '小红书',
     'home.hero.x':            'X / Twitter',

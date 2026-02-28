@@ -233,6 +233,21 @@
 
 .footer__left { color: var(--color-text-muted); font-size: 0.88rem; }
 
+.footer__nav {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.footer__nav a {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast);
+}
+
+.footer__nav a:hover { color: var(--color-accent); }
+
 .footer__social {
   display: flex;
   gap: var(--space-md);
@@ -301,5 +316,6 @@
   .art-grid,
   .art-grid--preview { grid-template-columns: repeat(2, 1fr); }
   .footer__inner { flex-direction: column; text-align: center; }
+  .footer__nav { justify-content: center; }
   .page-main { padding-block: var(--space-xl); }
 }

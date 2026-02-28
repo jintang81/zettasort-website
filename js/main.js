@@ -2,6 +2,40 @@
    main.js — App entry point, global nav, page modules
    ============================================================ */
 
+/* ── Skeleton cards: shown immediately while JSON loads ────── */
+(function insertSkeletons() {
+  var page = document.body.getAttribute('data-page');
+  function cardSkel() {
+    return '<div class="card card--skeleton" aria-hidden="true">' +
+      '<div class="card__thumb skeleton-shimmer"></div>' +
+      '<div class="card__body">' +
+        '<div class="skeleton-line skeleton-line--short skeleton-shimmer"></div>' +
+        '<div class="skeleton-line skeleton-line--long skeleton-shimmer"></div>' +
+        '<div class="skeleton-line skeleton-line--med skeleton-shimmer"></div>' +
+      '</div></div>';
+  }
+  function artSkel() {
+    return '<div class="art-item" aria-hidden="true">' +
+      '<div class="art-tile skeleton-shimmer"></div>' +
+      '</div>';
+  }
+  function fill(id, fn, n) {
+    var el = document.getElementById(id);
+    if (el) el.innerHTML = Array.from({ length: n }, fn).join('');
+  }
+  if (page === 'home') {
+    fill('homeVideos',   cardSkel, 2);
+    fill('homeArticles', cardSkel, 2);
+    fill('homeArt',      artSkel,  3);
+  } else if (page === 'videos') {
+    fill('videosList',   cardSkel, 4);
+  } else if (page === 'articles') {
+    fill('articlesList', cardSkel, 4);
+  } else if (page === 'art') {
+    fill('artGrid',      artSkel,  6);
+  }
+})();
+
 /* ── Global: init language ─────────────────────────────────── */
 I18n.init();
 
@@ -89,7 +123,7 @@ const Pages = {
         this.render(true);
       });
     },
-    render(reset = false) {
+    render() {
       const slice = VIDEOS.slice(0, this.shown + this.PAGE_SIZE);
       Render.list(slice, '#videosList', v => Render.videoCard(v));
       const btn = document.getElementById('videosLoadMore');
@@ -115,7 +149,7 @@ const Pages = {
         this.render(true);
       });
     },
-    render(reset = false) {
+    render() {
       const slice = ARTICLES.slice(0, this.shown + this.PAGE_SIZE);
       Render.list(slice, '#articlesList', a => Render.articleCard(a));
       const btn = document.getElementById('articlesLoadMore');
